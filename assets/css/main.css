@@ -10,7 +10,7 @@ body, main {
   font-family: 'Literata', serif !important;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: .95em;
+  font-size: 1.25em;
   font-weight: normal;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 720px !important;
+    max-width: 1080px !important;
   }
 }
 
