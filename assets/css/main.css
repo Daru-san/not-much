@@ -85,6 +85,11 @@ code:not(.highlight *) {
   color: var(--secondary);
   font-weight: 600;
   user-select: all;
+figcaption {
+  font-family: "Red Hat Mono";
+  background-color: var(--bg-variant);
+  font-style: italic;
+  color: var(--secondary)
 }
 
 .highlight > div {
