@@ -21,7 +21,7 @@
   {{ if .Param "math" }}
   {{ partial "math.html" . }}
   {{ end }}
-  <script src="bootstrap/bootstrap.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   {{- if eq $theme "auto" }}
   <script>
     function detectThemePreferences() {

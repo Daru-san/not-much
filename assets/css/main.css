@@ -1,6 +1,6 @@
-@import './fonts/literata/opsz-italic.css';
-@import './fonts/red-hat-mono/wght-italic.css';
-@import './bootstrap/bootstrap.css';
+@import '/node_modules/@fontsource-variable/literata/opsz.css';
+@import '/node_modules/@fontsource-variable/red-hat-mono/wght.css';
+@import '/node_modules/bootstrap/dist/css/bootstrap.css';
 
 body {
   background-color: var(--bg-color) !important;
