@@ -14,3 +14,8 @@ features = ['blog', 'reponsive', 'theme-palettes']
 [author]
   name = 'Giosuè Sulipano'
   homepage = 'https://giosuesulipano.it'
+
+[module]
+  [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "assets/js/bootstrap.bundle.min.js"
