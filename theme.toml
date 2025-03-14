@@ -17,5 +17,13 @@ features = ['blog', 'reponsive', 'theme-palettes']
 
 [module]
   [[module.mounts]]
-      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      target = "assets/js/bootstrap.bundle.min.js"
+    source = "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
+
+  [[module.mounts]]
+    source = "./node_modules/bootstrap/dist/css"
+    target = "assets/css/bootstrap"
+    
+  [[module.mounts]]
+    source = "./node_modules/@fontsource-variable"
+    target = "assets/fonts"
