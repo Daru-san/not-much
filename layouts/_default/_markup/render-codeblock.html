@@ -4,16 +4,19 @@
 {{- end -}}
 <figure class="code">
   {{- with .Attributes.title }}
-  <figcaption>
+  <figcaption class="code-title">
     {{- if $isVerbatim -}}
     <span>{{ . }}</span> {{/* As a file name */}}
     {{- else -}}
     <span>{{ . | markdownify }}</span> {{/* As a code description */}}
     {{- end -}}
+
   </figcaption>
 
   {{- end }}
-  {{- with transform.HighlightCodeBlock . -}}
-  {{ .Wrapped }}
-  {{- end -}}
+  <span class="code-block">
+    {{- with transform.HighlightCodeBlock . -}}
+    {{ .Wrapped }}
+    {{- end -}}
+  </span>
 </figure>
